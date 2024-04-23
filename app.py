@@ -5,10 +5,10 @@ mail=Mail()
 
 
 app= Flask(__name__)
-app.config["MAIL_SERVER"]="smtp.fastmail.com"
+app.config["MAIL_SERVER"]="......"
 app.config["MAIL_PORT"] = 465
-app.config["MAIL_USERNAME"]= "api"
-app.config["MAIL_PASSWORD"] ="25b7a0f013676e7c42135e5299aea119"
+app.config["MAIL_USERNAME"]= "..."
+app.config["MAIL_PASSWORD"] ="......."
 app.config["MAIL_USE_TLS"]=True
 app.config["MAIL_USE_SSL"]=False
 
@@ -20,9 +20,9 @@ def sendmail():
     msg= EmailMessage(
 
         subject="fgsfdgsf",
-        recepient=['ranashimshong@gmail.com'],
+        recepient=['gmail.com'],
         body='This is a test email',
-        mail_from='mailtrap@demomailtrap.com'
+        mail_from='........'
        
 
     )
